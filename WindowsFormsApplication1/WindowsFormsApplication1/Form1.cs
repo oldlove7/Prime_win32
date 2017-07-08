@@ -56,7 +56,8 @@ namespace WindowsFormsApplication1
         }
 
         private void DrawVerticalText()
-        { Graphics formGraphics = this.CreateGraphics();
+        { 
+            Graphics formGraphics = this.CreateGraphics();
             string txt2;
             //string txt = "Sample 한글..Text";
 
