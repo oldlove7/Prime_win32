@@ -1,13 +1,88 @@
-﻿빌드 시작: 2017-07-09 오전 12:06:04
+﻿빌드 시작: 2017-07-09 오후 10:34:18
      1>2 노드의 "E:\git_source\Ime\Ime\Ime.vcxproj" 프로젝트(Build 대상)입니다.
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\git_source\Ime\Debug\Ime.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\git_source\Ime\Debug\Ime.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\git_source\Ime\Debug\Ime.lib" /MACHINE:X86 Debug\main.obj
-         Ime.vcxproj -> E:\git_source\Ime\Debug\Ime.exe
-     1>"E:\git_source\Ime\Ime\Ime.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+     1>e:\git_source\ime\ime\main.cpp(64): error C2664: 'CreateWindowExW' : 매개 변수 2을(를) 'const char [8]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(71): error C2664: 'lstrlenW' : 매개 변수 1을(를) 'char [83]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(71): error C2664: 'TextOutW' : 매개 변수 4을(를) 'char [83]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(85): error C2664: 'lstrcpyW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(87): error C2664: 'lstrcpyW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(89): error C2664: 'wsprintfW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(93): error C2664: 'lstrcpyW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(94): error C2664: 'lstrcpyW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(95): error C2664: 'lstrcpyW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(96): error C2664: 'lstrcpyW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(97): error C2664: 'lstrcpyW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(98): error C2664: 'lstrcpyW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(99): error C2664: 'lstrcpyW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(100): error C2664: 'lstrcpyW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(101): error C2664: 'lstrcpyW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(102): error C2664: 'lstrcpyW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(103): error C2664: 'lstrcpyW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(104): error C2664: 'lstrcpyW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(105): error C2664: 'lstrcpyW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(107): error C2664: 'wsprintfW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(121): error C2664: 'lstrcpyW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(123): error C2664: 'lstrcpyW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(125): error C2664: 'lstrcatW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(126): error C2664: 'lstrcatW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(127): error C2664: 'lstrcatW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(128): error C2664: 'lstrcatW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(129): error C2664: 'lstrcatW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(130): error C2664: 'lstrcatW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(131): error C2664: 'lstrcatW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(132): error C2664: 'lstrcatW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(133): error C2664: 'lstrcatW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(134): error C2664: 'lstrcatW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(135): error C2664: 'lstrcatW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(136): error C2664: 'lstrcatW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(137): error C2664: 'lstrcatW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(139): error C2664: 'lstrlenW' : 매개 변수 1을(를) 'char [256]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(140): error C2664: 'wsprintfW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(153): error C2664: 'wsprintfW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\ime\ime\main.cpp(173): error C2664: 'wsprintfW' : 매개 변수 1을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>"E:\git_source\Ime\Ime\Ime.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
 
-빌드했습니다.
+빌드하지 못했습니다.
 
-경과 시간: 00:00:06.66
+경과 시간: 00:00:00.96

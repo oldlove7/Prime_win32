@@ -47,8 +47,8 @@ LRESULT CALLBACK WndProc(HWND hWnd,UINT iMessage,WPARAM wParam,LPARAM lParam)
  
      switch(iMessage) {
      case WM_CREATE:
-          buf=(TCHAR *)malloc(65536);
-          memset(buf,0,65536);
+          buf=(TCHAR *)malloc(65535);
+          memset(buf,0,65535);
           return 0;
      case WM_CHAR:
           len=lstrlen(buf);
