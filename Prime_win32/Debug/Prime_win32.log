@@ -1,0 +1,3 @@
+﻿  main.cpp
+c:\git_source\prime_win32\prime_win32\main.cpp(66): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double'입니다.
+  Prime_win32.vcxproj -> C:\git_source\Prime_win32\Debug\Prime_win32.exe
