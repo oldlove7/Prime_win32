@@ -175,7 +175,7 @@ void PRIME::prime_generation_db_insert()
 			}
 		}
 		////////////////////////////////
-		start = clock();//계산시작 시간
+		start_time = clock();//계산시작 시간
 		//소수를 판별하여 데이터베이스에 저장
 		if(true==isPrime(i)){
 			prime=i;
@@ -185,8 +185,8 @@ void PRIME::prime_generation_db_insert()
 			count++;
 			cout << "count = " << count << endl;
 
-			finish = clock();//계산종료 시간
-			printf("calculation  time=%lf\n",(double)(finish - start) / CLOCKS_PER_SEC);
+			finish_time = clock();//계산종료 시간
+			printf("calculation  time=%lf\n",(double)(finish_time - start_time) / CLOCKS_PER_SEC);
 			first_prime = prime;
 			show_time();//현재시간 출력
 

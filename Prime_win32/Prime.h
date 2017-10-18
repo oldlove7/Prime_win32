@@ -7,7 +7,7 @@
 class PRIME
 {
 private:
-	clock_t start,finish;
+	clock_t start_time,finish_time;
 	unsigned __int64 p_start;
 	unsigned __int64 p_end;
 	unsigned __int64 i;

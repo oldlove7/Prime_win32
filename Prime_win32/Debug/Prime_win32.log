@@ -1,3 +1,10 @@
-﻿  main.cpp
-c:\git_source\prime_win32\prime_win32\main.cpp(66): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double'입니다.
+﻿  Prime.cpp
+c:\git_source\prime_win32\prime_win32\prime.cpp(140): warning C4996: '_strdate': This function or variable may be unsafe. Consider using _strdate_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files\windows kits\10\include\10.0.15063.0\ucrt\time.h(292): note: '_strdate' 선언을 참조하십시오.
+c:\git_source\prime_win32\prime_win32\prime.cpp(141): warning C4996: '_strtime': This function or variable may be unsafe. Consider using _strtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files\windows kits\10\include\10.0.15063.0\ucrt\time.h(308): note: '_strtime' 선언을 참조하십시오.
+  코드를 생성하고 있습니다...
+  건너뛰고 있습니다... (관련된 변경 내용 없음)
+  mysql_query.cpp
+  main.cpp
   Prime_win32.vcxproj -> C:\git_source\Prime_win32\Debug\Prime_win32.exe
