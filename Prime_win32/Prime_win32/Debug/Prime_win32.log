@@ -1,0 +1,7 @@
+﻿  Prime.cpp
+f:\git_source\prime_win32\prime_win32\prime.cpp(140): warning C4996: '_strdate': This function or variable may be unsafe. Consider using _strdate_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files\windows kits\10\include\10.0.15063.0\ucrt\time.h(292): note: '_strdate' 선언을 참조하십시오.
+f:\git_source\prime_win32\prime_win32\prime.cpp(141): warning C4996: '_strtime': This function or variable may be unsafe. Consider using _strtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files\windows kits\10\include\10.0.15063.0\ucrt\time.h(308): note: '_strtime' 선언을 참조하십시오.
+  Prime_win32.vcxproj -> F:\git_source\Prime_win32\Debug\Prime_win32.exe
+  Prime_win32.vcxproj -> F:\git_source\Prime_win32\Debug\Prime_win32.pdb (Full PDB)
