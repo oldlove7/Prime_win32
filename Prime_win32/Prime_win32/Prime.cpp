@@ -165,6 +165,12 @@ void PRIME::prime_generation_db_insert()
 	}
 	first_prime=query.select_max_prime();//가장큰수를 첫번째 변수에 저장
 	for(i= m_PrimeStart; i<m_PrmepEnd; i++){
+		//int 최대크기면 종료 2147483647
+		if (m_PrmepEnd >= 2147483647) {
+			cout << "int 범위를 초과했습니다" << endl;
+			return;
+		}
+
 		//ESC가 입력되면 루프종료
 		if(_kbhit())
 		{
