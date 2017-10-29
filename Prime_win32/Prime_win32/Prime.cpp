@@ -14,9 +14,8 @@ using namespace std;
 //생성자 초기화
 PRIME::PRIME()
 {
-	count=0;
+	m_u6Count = 0;
 	PrimeNumber=0;
-	X=0;
 	first_prime=0;
 	term_prime=0;
 	
@@ -57,7 +56,8 @@ void PRIME::prime_generation()
 {
 	//cout << a * a * a * a * a * a * a << endl;
 	//int i=0,j=0,k=0,p_start=0, p_end=0;
-
+	unsigned __int64 i=0,j=0,k=0;
+	
 	cout << "p_start?";
 	cin >> m_PrimeStart;
 	cout << "p_end";
@@ -82,6 +82,9 @@ void PRIME::prime_generation()
 //입력된 수를 소인수 분해하는 함수
 void PRIME::getPrime()
 {
+	unsigned __int64 X;
+	unsigned __int64 i;
+
 	cout<<"분해할 소인수 입력 =";
 	cin>>FirstInputNumber;
 	InputNumber=FirstInputNumber;
@@ -97,8 +100,8 @@ void PRIME::getPrime()
 				PrimeNumber++;
 				InputNumber=InputNumber/i;
 				i=1;
-				count++;
-				cout<<"count="<<count<<endl;
+				m_u6Count++;
+				cout<<"count="<< m_u6Count <<endl;
 				cout<<"PrimeNumber="<<Prime[PrimeNumber-1]<<endl;
 			}
 		}
@@ -131,7 +134,7 @@ void PRIME::getPrime()
 				return;
 			}
 		}
-		count=0;//재실행을 위한 카운트 초기화	
+		m_u6Count = 0;//재실행을 위한 카운트 초기화	
 }
 //현재시간을 출력
 void PRIME::show_time()
@@ -145,6 +148,8 @@ void PRIME::show_time()
 //소수를 순차적으로 카운트하여 데이터 베이스에 저장하는 함수
 void PRIME::prime_generation_db_insert()
 {
+	unsigned __int64 i;
+
 	MYSQL_QUERY query;
     //숫자 범위 입력
 	while(1)
@@ -187,9 +192,9 @@ void PRIME::prime_generation_db_insert()
 			prime=i;
             term_prime = prime - first_prime;
 			query.insert_query_prime(prime,term_prime);
-			cout << "insert secces primeNumber = " << prime << endl;
-			count++;
-			cout << "count = " << count << endl;
+			cout << "insert success primeNumber = " << prime << endl;
+			m_u6Count++;
+			cout << "count = " << m_u6Count << endl;
 
 			finish_time = clock();//계산종료 시간
 			printf("calculation  time=%lf\n",(double)(finish_time - start_time) / CLOCKS_PER_SEC);

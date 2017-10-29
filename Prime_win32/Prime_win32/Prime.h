@@ -1,25 +1,19 @@
 #include <time.h>
 #include <windows.h>
 
-
-
-
 class PRIME
 {
 private:
 	clock_t start_time,finish_time;
 	unsigned __int64 m_PrimeStart;
 	unsigned __int64 m_PrmepEnd;
-	unsigned __int64 i;
-	unsigned __int64 j;
-	unsigned __int64 k;
 	unsigned __int64 prime;
-	unsigned __int64 count;
+	unsigned __int64 m_u6Count;
     int ch;//키보드 처리값
 	unsigned __int64 FirstInputNumber;
 	unsigned __int64 PrimeNumber;
 	unsigned __int64 InputNumber;
-	unsigned __int64 X;
+	//unsigned __int64 X;
     unsigned __int64 first_prime;
     unsigned __int64 term_prime;
 	__int64 prime_array[100000];
