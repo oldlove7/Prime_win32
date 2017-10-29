@@ -50,8 +50,16 @@ bool PRIME::isPrime(unsigned __int64 n)
 	}
 	return false;
 }
-
-//입력범위의 소수를 구하는 함수
+/**
+설명:입력범위의 소수를 구하는 함수
+@class    PRIME
+@date    2017/10/29
+@author    유승일
+@warning
+인수: 없음
+리턴값: void
+수정내용: 
+*/
 void PRIME::prime_generation()
 {
 	//cout << a * a * a * a * a * a * a << endl;
