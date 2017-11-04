@@ -240,7 +240,7 @@ void PRIME::prime_generation_db_insert()
 		m_finish_time = clock();//계산종료 시간
 		aTime = (double)(m_finish_time - m_start_time) / CLOCKS_PER_SEC;
 		bTime = bTime + aTime;
-		//cout << bTime << endl;
+		
 		
 	}
 }

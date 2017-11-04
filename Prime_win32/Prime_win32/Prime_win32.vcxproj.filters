@@ -32,45 +32,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="config-win.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="errmsg.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="m_ctype.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="m_string.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="my_alloc.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="my_getopt.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="my_global.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="my_list.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="my_pthread.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="my_sys.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="mysql_com.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="mysql_version.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="mysqld_error.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
     <ClInclude Include="BigInteger.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
@@ -87,6 +48,45 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="typelib.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="mysqld_error.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql_version.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql_com.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="my_sys.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="my_pthread.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="my_list.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="my_global.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="my_getopt.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="my_alloc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="config-win.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="errmsg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m_ctype.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m_string.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
