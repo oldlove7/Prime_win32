@@ -1,23 +1,2 @@
-﻿  mysql_query.cpp
-c:\git_source\prime_win32\prime_win32\mysql_query.cpp(70): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
-c:\git_source\prime_win32\prime_win32\mysql_query.cpp(82): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
-c:\git_source\prime_win32\prime_win32\mysql_query.cpp(94): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
-c:\git_source\prime_win32\prime_win32\mysql_query.cpp(108): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
-c:\git_source\prime_win32\prime_win32\mysql_query.cpp(124): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
-  menu.cpp
-  main.cpp
-c:\git_source\prime_win32\prime_win32\main.cpp(66): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double'입니다.
-  Prime.cpp
-c:\git_source\prime_win32\prime_win32\prime.cpp(162): warning C4996: '_strdate': This function or variable may be unsafe. Consider using _strdate_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files\windows kits\10\include\10.0.15063.0\ucrt\time.h(292): note: '_strdate' 선언을 참조하십시오.
-c:\git_source\prime_win32\prime_win32\prime.cpp(163): warning C4996: '_strtime': This function or variable may be unsafe. Consider using _strtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files\windows kits\10\include\10.0.15063.0\ucrt\time.h(308): note: '_strtime' 선언을 참조하십시오.
-  BigInteger.cpp
-  코드를 생성하고 있습니다...
-BigInteger.obj : warning LNK4075: '/EDITANDCONTINUE'이(가) '/SAFESEH' 사양으로 인해 무시됩니다.
-  Prime_win32.vcxproj -> C:\git_source\Prime_win32\Debug\Prime_win32.exe
+﻿  Prime_win32.vcxproj -> D:\Prime_win32\Debug\Prime_win32.exe
+  Prime_win32.vcxproj -> D:\Prime_win32\Debug\Prime_win32.pdb (Full PDB)

@@ -230,18 +230,13 @@ void PRIME::prime_generation_db_insert()
 			m_finish_time = clock();//계산종료 시간
 			aTime = (double)(m_finish_time - m_start_time) / CLOCKS_PER_SEC;
 			bTime = bTime + aTime;
-			cout << "calculation  time = " << bTime << endl;
-			bTime = 0;
-			//cout << (double)(m_finish_time - m_start_time) / CLOCKS_PER_SEC << endl;
-			//printf("calculation  time=%lf\n",(double)(m_finish_time - m_start_time) / CLOCKS_PER_SEC);
+			cout << "calculation  time = " << bTime << endl;//계산시간 출력
+			bTime = 0;//누적시간을 초기화
 			first_prime = prime;
 			show_time();//현재시간 출력
 		}
 		m_finish_time = clock();//계산종료 시간
-		aTime = (double)(m_finish_time - m_start_time) / CLOCKS_PER_SEC;
-		bTime = bTime + aTime;
-		////
-		//////
-		
+		aTime = (double)(m_finish_time - m_start_time) / CLOCKS_PER_SEC;//시작시간과 종료시간 차이 계산
+		bTime = bTime + aTime;//계산시간 누적
 	}
 }

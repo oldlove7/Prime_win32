@@ -64,7 +64,7 @@ int main()
 				finish = clock();
 			    //duration = (double)(finish - start) / CLOCKS_PER_SEC;
 				printf("%d uration time=\n",duration);
-				Sleep(5000);
+				Sleep(1000);
 				return 0;
         }
     }
